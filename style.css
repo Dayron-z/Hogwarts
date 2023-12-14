@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    background-image: url(imagenes/hogwarts-legacy-uhdpaper.com-4K-3.2832.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+
+
+.eleccion{
+    width: 200px;
+    height: 250px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cualidades{
+    background-color: antiquewhite;
+    color: rgb(0, 0, 0);
+}
